@@ -1,0 +1,11 @@
+{
+  "name": "shangluo-tourism",
+  "version": "1.0.0",
+  "description": "商洛文旅数字平台",
+  "scripts": {
+    "install-all": "npm install --prefix backend",
+    "init-db": "node backend/scripts/init-db.js",
+    "start": "npm start --prefix backend",
+    "publish": "npm run tunnel --prefix backend"
+  }
+}

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>22℃商洛 · 中国康养之都 — 商洛文旅数字平台</title>
+<meta name="description" content="秦岭深处·AI驱动的商洛文化资源宣传平台：首页、智能推荐、山水商洛、人文商洛、非遗商洛、舌尖商洛、康养商洛、文旅动态与AI文旅助手。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M2 24 L12 8 L18 17 L23 10 L30 24 Z' fill='%232f8f6b'/%3E%3Cpath d='M2 24 L12 8 L18 17 L23 10 L30 24 Z' fill='none' stroke='%23c9a24b' stroke-width='1.4'/%3E%3Ccircle cx='23' cy='8.5' r='2' fill='%23c9a24b'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+<script>
+window.__ensureEcharts = function(cb){
+  if (window.echarts) return cb();
+  var s = document.createElement('script');
+  s.src = 'https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.1/echarts.min.js';
+  s.onload = function(){ cb(); };
+  s.onerror = function(){ cb(); };
+  document.head.appendChild(s);
+};
+</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- 路由加载进度条 -->
+<div class="route-loader" id="routeLoader"><div class="bar"></div></div>
+
+<!-- ===== 顶部导航 ===== -->
+<header class="topbar" id="topbar">
+  <div class="wrap">
+    <a class="brand" href="#/home" aria-label="商洛文旅数字平台首页">
+      <svg viewBox="0 0 32 32" fill="none"><path d="M2 24 L12 8 L18 17 L23 10 L30 24 Z" fill="#2f8f6b"/><path d="M2 24 L12 8 L18 17 L23 10 L30 24 Z" fill="none" stroke="#c9a24b" stroke-width="1.4"/><circle cx="23" cy="8.5" r="2" fill="#c9a24b"/><path d="M9 27h14" stroke="rgba(255,255,255,.5)" stroke-width="1.6"/></svg>
+      <div>
+        <div class="t1">商洛文旅数字平台</div>
+        <div class="t2">秦岭深处 · 中国康养之都</div>
+      </div>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#/home" data-view="home">首页</a>
+      <a href="#/smart" data-view="smart">智能推荐</a>
+      <a href="#/scenery" data-view="scenery">山水商洛</a>
+      <a href="#/culture" data-view="culture">人文商洛</a>
+      <a href="#/intangible" data-view="intangible">非遗商洛</a>
+      <a href="#/food" data-view="food">舌尖商洛</a>
+      <a href="#/wellness" data-view="wellness">康养商洛</a>
+      <a href="#/events" data-view="events">文旅动态</a>
+      <a href="#/ai" data-view="ai">AI 助手</a>
+    </nav>
+    <a class="topbar-cta" href="#/ai"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z"/></svg>AI 行程规划</a>
+    <button class="burger" id="burger" aria-label="打开导航"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+
+<main>
+
+<!-- ===== 首页 ===== -->
+<section class="view" id="view-home">
+  <div class="hero" id="homeHero">
+    <div class="hero-media" aria-hidden="true">
+      <div id="heroSlides"></div>
+      <canvas id="fog"></canvas>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-inner" id="heroInner">
+      <p class="hero-eyebrow">秦岭深处 · 官方文旅数字平台</p>
+      <h1><span class="deg">22℃</span>商洛</h1>
+      <p class="slogan">中国康养之都</p>
+      <p class="sub">问得着 · 看得懂 · <b>玩得转</b> —— 导航直达，一站式读懂商洛山水人文</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#/scenery"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-9 4 6 3-4 5 7z"/><circle cx="17" cy="7" r="1.6"/></svg>开始探索商洛</a>
+        <a class="btn btn-ghost" href="#/ai"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>问问 AI 文旅助手</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="v num">7</div><div class="k">个县区</div></div>
+      <div class="stat"><div class="v num">1</div><div class="k">个 5A 景区</div></div>
+      <div class="stat"><div class="v num">22℃</div><div class="k">年均气温</div></div>
+      <div class="stat"><div class="v num">双高铁</div><div class="k">西十 · 西康开通</div></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-eyebrow">一站探索</span>
+        <h2 class="sec-title">七大板块 · <em>导航直达</em></h2>
+        <div class="rule"></div>
+        <p class="sec-desc">点击任意板块进入对应页面，山水、人文、非遗、美食、康养、动态与 AI 服务一次逛遍。</p>
+      </div>
+      <div class="hub" id="hubGrid"></div>
+      <div class="hot-tape reveal" id="hotTape"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 智能推荐 ===== -->
+<section class="view" id="view-smart">
+  <div class="sec bg-mist">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-eyebrow">AI 智能推荐</span>
+        <h2 class="sec-title">循四季 · 看人群 · <em>追热点</em></h2>
+        <div class="rule"></div>
+        <p class="sec-desc">推荐引擎综合季节、人群与全网热点三个维度，为你分发「千人千面」的商洛玩法。热点标签随官方新闻与重大活动更新。</p>
+      </div>
+      <div class="rec-tabs reveal" role="tablist">
+        <button class="rec-tab active" data-tab="season" role="tab">循四季</button>
+        <button class="rec-tab" data-tab="crowd" role="tab">看人群</button>
+        <button class="rec-tab" data-tab="hot" role="tab">追热点</button>
+      </div>
+      <div class="rec-grid reveal" id="rec-season"></div>
+      <div class="rec-grid reveal" id="rec-crowd" hidden></div>
+      <div class="rec-grid reveal" id="rec-hot" hidden></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 山水商洛 ===== -->
+<section class="view" id="view-scenery">
+  <div class="sec">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-eyebrow">山水商洛</span>
+        <h2 class="sec-title">一图读懂 <em>七县山水</em></h2>
+        <div class="rule"></div>
+        <p class="sec-desc">点击地图或下方县区，右侧联动展示该县主要风景；点景区可看详情、一键导航、预订门票。</p>
+      </div>
+      <div class="wx-strip reveal" id="wxStrip">
+        <div class="wx-head"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19a4.5 4.5 0 0 0 0 -9 6 6 0 0 0 -11.4 1.7 3.5 3.5 0 0 0 0.9 6.8h10.5z"/></svg>商洛七县实时天气</div>
+        <div class="wx-items" id="wxItems"></div>
+      </div>
+      <div class="map-layout reveal">
+        <div id="slmap" role="img" aria-label="商洛市七县区地图"></div>
+        <div class="map-side">
+          <p class="map-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5.5-5.5 2 2-5.5z"/></svg>点击地图或下方县区，联动查看代表风景</p>
+          <div class="county-tabs" id="countyTabs"></div>
+          <div class="county-panel" id="countyPanel"></div>
+        </div>
+      </div>
+      <div class="sight-grid" id="countySights"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 人文商洛 ===== -->
+<section class="view" id="view-culture">
+  <div class="sec bg-mist">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-eyebrow">人文商洛</span>
+        <h2 class="sec-title">秦岭文脉 · <em>千年印记</em></h2>
+        <div class="rule"></div>
+        <p class="sec-desc">从洛南猿人到商於古道，从仓颉造字到贾平凹故里，一段段故事读懂商洛的文化纵深，点击卡片查看完整讲述。</p>
+      </div>
+      <div class="culture-layout reveal">
+        <div class="culture-feature" id="cultureFeature"></div>
+        <div class="tl" id="cultureTimeline"></div>
+      </div>
+      <div class="story-grid reveal" id="storyGrid"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 非遗商洛 ===== -->
+<section class="view" id="view-intangible">
+  <div class="sec">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-eyebrow">非遗商洛</span>
+        <h2 class="sec-title">指尖与腔调里的 <em>秦巴记忆</em></h2>
+        <div class="rule"></div>
+        <p class="sec-desc">按县区浏览商洛非物质文化遗产：戏曲、曲艺、技艺、美术，看见活态传承。</p>
+      </div>
+      <div class="filter-tabs reveal" id="fyTabs"></div>
+      <div class="item-grid reveal" id="fyGrid"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 舌尖商洛 ===== -->
+<section class="view" id="view-food">
+  <div class="sec bg-mist">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-eyebrow">舌尖商洛</span>
+        <h2 class="sec-title">一碗 <em>人间烟火</em></h2>
+        <div class="rule"></div>
+        <p class="sec-desc">秦头楚尾的滋味：按县区寻味商洛，既有北方的厚实，又有南方的清鲜。</p>
+      </div>
+      <div class="filter-tabs reveal" id="foodTabs"></div>
+      <div class="food-grid3 reveal" id="foodGrid"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 康养商洛 ===== -->
+<section class="view" id="view-wellness">
+  <div class="sec">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-eyebrow">康养商洛</span>
+        <h2 class="sec-title">22℃ 的 <em>慢生活</em></h2>
+        <div class="rule"></div>
+        <p class="sec-desc">官方品牌「22℃商洛 · 中国康养之都」：气候为养、森林为肺、药库为源、田园为居。</p>
+      </div>
+      <div class="wn-grid reveal" id="wnCards"></div>
+      <div class="wn-block reveal" id="wnBlocks"></div>
+      <div class="wn-dest reveal" id="wnDests"></div>
+      <div class="wn-season reveal" id="wnSeasons"></div>
+      <div class="wn-cta reveal">
+        <h3>来康养商洛，呼吸秦岭新鲜空气</h3>
+        <p>感受 22℃ 的舒适，在山水之间休养身心，体验自然、中医药、田园交织的康养生活。</p>
+        <div style="margin-top:18px"><a class="btn btn-primary" href="#/ai"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg>让 AI 规划康养行程</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 文旅动态 ===== -->
+<section class="view" id="view-events">
+  <div class="sec bg-mist">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-eyebrow">文旅动态</span>
+        <h2 class="sec-title">节庆日历 · <em>官方资讯</em></h2>
+        <div class="rule"></div>
+        <p class="sec-desc">汇总商洛市文旅局官方发布的重大活动与最新资讯，点击标题跳转官方来源原文。</p>
+      </div>
+      <div class="ev-layout reveal">
+        <div class="news-list" id="newsList"></div>
+        <div class="cal">
+          <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>节庆展演日历</h4>
+          <div class="cal-list" id="calList"></div>
+        </div>
+      </div>
+      <div class="media-grid reveal" id="mediaGrid"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== AI 助手 ===== -->
+<section class="view" id="view-ai">
+  <div class="sec">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-eyebrow">AI 文旅助手</span>
+        <h2 class="sec-title">问得着 · 规划得了</h2>
+        <div class="rule"></div>
+        <p class="sec-desc">AI 问答由后端服务统一代理豆包大模型，密钥不出服务器；网络异常时自动回落内置官方语料。</p>
+      </div>
+      <div class="ai-layout reveal">
+        <div class="ai-abilities">
+          <div class="ai-ab">
+            <div class="hd"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/><path d="M4 6h4M4 9h3"/></svg>全量知识问答</div>
+            <p id="ai-stats-summary">43 处景区、15 段人文故事、29 项非遗、27 道美食与康养资源全量语料，常见问题秒回、附信息来源。</p>
+          </div>
+          <div class="ai-ab">
+            <div class="hd"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/><circle cx="12" cy="12" r="3.5"/></svg>豆包大模型问答</div>
+            <p>后端已接入火山方舟豆包大模型，能回答文档之外的问题（天气、票务、攻略等）；网络异常时自动回落官方语料，不影响使用。</p>
+          </div>
+          <div class="ai-ab">
+            <div class="hd"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><circle cx="12" cy="12" r="3.5"/></svg>一键行程规划</div>
+            <p>输入天数、人群与出发地，结构化输出每日安排、餐饮建议，景点可直达详情与导航。</p>
+          </div>
+        </div>
+        <div class="ai-stage">
+          <div class="ai-head">
+            <div class="ai-ava"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg></div>
+            <div><div class="nm">AI 文旅助手</div><div class="st"><span class="live"></span><span id="aiModeLabel">大模型在线</span></div></div>
+            <div class="act"><button id="aiClear" aria-label="清空对话"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M8 6V4h8v2M19 6l-1 14H6L5 6"/></svg></button></div>
+          </div>
+          <div class="ai-chat" id="aiChat"></div>
+          <div class="ai-preset">
+            <button data-q="商洛有哪些5A级景区？">5A 景区</button>
+            <button data-q="商洛有什么好玩的？">商洛怎么玩</button>
+            <button data-q="商洛有哪些非物质文化遗产？">非遗名录</button>
+            <button data-q="金丝峡在哪里，怎么去？">金丝峡</button>
+            <button data-q="商洛有什么特色美食？">特色美食</button>
+            <button data-q="最近商洛有什么热门活动？">热门活动</button>
+            <button data-q="金丝峡门票多少钱？">门票价格</button>
+          </div>
+          <div class="ai-input">
+            <input id="aiInput" type="text" placeholder="问问 AI：商洛适合康养的线路有哪些？" autocomplete="off">
+            <button id="aiSend" aria-label="发送"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4z"/></svg></button>
+          </div>
+          <div class="plan-form" id="planForm">
+            <select id="planDays" aria-label="行程天数"><option value="1">1 日游</option><option value="2" selected>2 日游</option><option value="3">3 日游</option><option value="4">4 日游</option><option value="5">5 日游</option><option value="6">6 日游</option><option value="7">7 日游</option></select>
+            <select id="planCrowd" aria-label="出行人群"><option value="parent">亲子家庭</option><option value="study">研学之旅</option><option value="health" selected>康养慢行</option><option value="photo">摄影采风</option></select>
+            <input id="planFrom" type="text" placeholder="出发地（如：西安）" value="西安">
+            <button id="planGo">生成行程</button>
+          </div>
+          <div class="itinerary" id="itinerary"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== 页脚 ===== -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <svg viewBox="0 0 32 32" fill="none"><path d="M2 24 L12 8 L18 17 L23 10 L30 24 Z" fill="#2f8f6b"/><path d="M2 24 L12 8 L18 17 L23 10 L30 24 Z" fill="none" stroke="#c9a24b" stroke-width="1.4"/><circle cx="23" cy="8.5" r="2" fill="#c9a24b"/><path d="M9 27h14" stroke="rgba(255,255,255,.4)" stroke-width="1.6"/></svg>
+        <div class="fb1">商洛文旅数字平台</div>
+        <div class="fb2">22℃商洛 · 中国康养之都</div>
+        <p>秦岭深处 · AI 驱动的商洛文化资源宣传平台，让游客「问得着、看得懂、玩得转」。</p>
+      </div>
+      <div>
+        <h5>探索商洛</h5>
+        <ul class="foot-links">
+          <li><a data-go="scenery">山水商洛 · 一图览七县</a></li>
+          <li><a data-go="culture">人文商洛 · 秦岭文脉</a></li>
+          <li><a data-go="intangible">非遗商洛 · 活态传承</a></li>
+          <li><a data-go="food">舌尖商洛 · 秦头楚尾</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>服务直达</h5>
+        <ul class="foot-links">
+          <li><a data-go="wellness">康养商洛 · 22℃慢生活</a></li>
+          <li><a data-go="events">文旅动态 · 官方资讯</a></li>
+          <li><a data-go="ai">AI 文旅助手</a></li>
+          <li><a data-go="smart">智能推荐 · 千人千面</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>官方渠道</h5>
+        <ul class="foot-links">
+          <li><a href="https://www.shangluo.gov.cn/wlj/" target="_blank" rel="noopener">商洛市文化和旅游局</a></li>
+          <li><a href="https://www.shangluo.gov.cn/" target="_blank" rel="noopener">商洛市人民政府</a></li>
+          <li><a href="https://www.snzs.gov.cn/" target="_blank" rel="noopener">柞水县人民政府</a></li>
+          <li><a href="https://www.shangnan.gov.cn/" target="_blank" rel="noopener">商南县人民政府</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-note">
+      本平台内容与 AI 回答均源自官方公开资料、各县区政府公开信息及景区官方发布，仅作公益宣传使用。<br>
+      © 2026 商洛文旅数字平台 · 22℃商洛 中国康养之都
+    </div>
+  </div>
+</footer>
+
+<!-- ===== 景区详情弹窗 ===== -->
+<div class="modal-mask" id="modalMask">
+  <div class="modal" id="modalBox" role="dialog" aria-modal="true" aria-label="景区详情">
+    <div class="mimg" id="mImg"><button class="close" id="mClose" aria-label="关闭"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <div class="mbody" id="mBody"></div>
+  </div>
+</div>
+
+<!-- ===== 浮动 AI 对话 ===== -->
+<button class="fab" id="fab" aria-label="打开AI助手"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg><span class="ping"></span></button>
+<div class="drawer" id="drawer">
+  <div class="ai-head">
+    <div class="ai-ava"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg>
+    <div><div class="nm">AI 文旅助手</div><div class="st"><span class="live"></span>全站随时待命</div></div>
+    <div class="act"><button id="dClose" aria-label="关闭"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+  </div>
+  <div class="ai-chat" id="dChat"></div>
+  <div class="ai-preset">
+    <button data-q="商洛有哪些5A级景区？">5A 景区</button>
+    <button data-q="最近商洛有什么热门活动？">热门活动</button>
+    <button data-q="金丝峡门票多少钱？">金丝峡门票</button>
+  </div>
+  <div class="ai-input">
+    <input id="dInput" type="text" placeholder="问问 AI：商洛怎么玩？" autocomplete="off">
+    <button id="dSend" aria-label="发送"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4z"/></svg></button>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "shangluo-tourism-backend",
+  "version": "1.0.0",
+  "description": "商洛文旅数字平台 - 后端服务（内容接口 / AI问答代理 / 天气代理）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "tunnel": "node scripts/tunnel.js",
+    "init-db": "node -e \"require('./db-init').resetDatabase()\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^4.21.2",
+    "localtunnel": "^2.0.2"
+  }
+}

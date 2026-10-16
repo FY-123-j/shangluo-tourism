@@ -1,0 +1,2096 @@
+{
+  "IMG": {
+    "hero1": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/DSRFb1ZmCoJOufxCo8JcWrFInKd",
+    "hero2": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/BQISbciwZoh6yyxIodLca6YTnbg",
+    "hero3": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/RoFQbQct3oS6Zrxr7hhcSPaYnzc",
+    "hero4": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/RxZqbzsgsoWV4Lx4ej3cW8lon0b",
+    "hero5": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/AOTybuXL7oqyqZx5JVqcxpAUnRc",
+    "music": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/Gd7lbNoEioZWjgxoQyDcXV2fnNg",
+    "dihua": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/H1xGbO7W0oAmpkxlv1wcuHQDnOb",
+    "jinsixia": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/BqfwbSZAvoNJnrxxEgtczFNCnGg",
+    "niubeiliang": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/CY8tbQfPvoIhO5xG73wcBFNfnFe",
+    "huagu": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/XT0Vbwz4MoLQXwxPrGNc8vZkntg",
+    "bowuguan": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/LrXkbbsUeowqJpxKLHAcgmqWnjg",
+    "dihua2": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/Jg8xblyq7oZ3jqxisutcOaIonXb",
+    "tianzhushan": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/IqLnbuj94ojUmBxe7oPc3YFdntD",
+    "tayunshan": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/KAJwbbckXohGH7xpQhHc0kopnxe",
+    "rongdong": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/Lc9Lby3qDoTU7hxKxekcLN2JnId",
+    "huagu2": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/X9FLbjb5ao1viexus9ncYVXJneb",
+    "dahuicai": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/JtZgbjfreo3xQ6xCOMMchLQZnph",
+    "guokui": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/LQ8Abbwieoy6sjxNCJocitJdngh",
+    "paomo": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/VLR7bJoKqoL6bqxzlYecKYTxnEc",
+    "bada": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/MYUbbxOgporRMnxitE5c2MiUnKv",
+    "niubeiliang2": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/DrYMbCj37o9dJFxb9kCc9qonnng"
+  },
+  "TICKET_URL": "https://touch.piao.qunar.com/touch/index_%E5%95%86%E6%B4%9B.html",
+  "COUNTIES": [
+    "商州区",
+    "山阳县",
+    "洛南县",
+    "丹凤县",
+    "商南县",
+    "镇安县",
+    "柞水县"
+  ],
+  "COUNTY_TAG": {
+    "商州区": "中心城区",
+    "山阳县": "秦楚边关",
+    "洛南县": "汉字故里",
+    "丹凤县": "平凹故里",
+    "商南县": "金丝峡之乡",
+    "镇安县": "道教名山",
+    "柞水县": "秦岭腹地"
+  },
+  "SIGHTS": [
+    {
+      "name": "秦岭江山景区",
+      "level": "4A",
+      "county": "商州区",
+      "desc": "腰市镇，峡谷溪流、映翠湖、海石芽石林、红岩寨丹霞，瀑布奇石，避暑徒步好去处。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/JrwHbZ4pCoX2CwxiA2DcHjj9nsc",
+      "lng": 109.85,
+      "lat": 33.95,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "戴云山",
+      "level": "",
+      "county": "商州区",
+      "desc": "商州观云海日出圣地，清晨山顶云雾翻涌，群山若隐若现。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/I11ubDnzHoW4tsxTkhtcjWCmnub",
+      "lng": 109.97,
+      "lat": 33.92,
+      "free": true,
+      "price": "免费开放",
+      "ticket": ""
+    },
+    {
+      "name": "熊耳山",
+      "level": "",
+      "county": "商州区",
+      "desc": "商州八景「熊耳晚霞」，傍晚落日染遍山峦，晚霞绝美。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/KQnEbjP7RoC1qcxxsHucDZskndc",
+      "lng": 109.79,
+      "lat": 33.93,
+      "free": true,
+      "price": "免费开放",
+      "ticket": ""
+    },
+    {
+      "name": "蟒岭绿道",
+      "level": "4A",
+      "county": "商州区",
+      "desc": "山林溪水相伴，骑行散步，草木繁茂，十四运自行车赛道，原生态山野风光。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/WgUDbXc4UouP24x59hacxzXlnEe",
+      "lng": 109.95,
+      "lat": 33.86,
+      "free": true,
+      "price": "免费开放",
+      "ticket": ""
+    },
+    {
+      "name": "仙娥湖（二龙山水库）",
+      "level": "",
+      "county": "商州区",
+      "desc": "丹江上游高峡平湖，湖山相映，湖心岛，山水清幽。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/BOFwbPpSropyUDxzqPNcNOWLnhc",
+      "lng": 109.86,
+      "lat": 33.88,
+      "free": true,
+      "price": "免费开放",
+      "ticket": ""
+    },
+    {
+      "name": "静泉山",
+      "level": "",
+      "county": "商州区",
+      "desc": "人称「商州小华山」，古寺遗迹，千年静泉，山石奇秀。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/X3ZMbGbtkoaJdixLkxecmQn7n3g",
+      "lng": 109.9,
+      "lat": 33.88,
+      "free": true,
+      "price": "免费开放",
+      "ticket": ""
+    },
+    {
+      "name": "金凤山",
+      "level": "3A",
+      "county": "商州区",
+      "desc": "商州城市阳台，登高俯瞰全城，丹江穿城、秦岭群山尽收眼底，日落夜景绝佳，有悬空栈道。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/JtG3bjLA1oLtQ5xEvdIcr4Oen0g",
+      "lng": 109.955,
+      "lat": 33.905,
+      "free": true,
+      "price": "免费开放",
+      "ticket": ""
+    },
+    {
+      "name": "莲湖公园",
+      "level": "3A",
+      "county": "商州区",
+      "desc": "千年古园，残存商州古城墙，湖水荷塘，亭台垂柳，老城烟火。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/MpYzbxEOmoej7uxVZE3cVsPInQb",
+      "lng": 109.93,
+      "lat": 33.87,
+      "free": true,
+      "price": "免费开放",
+      "ticket": ""
+    },
+    {
+      "name": "丹江公园·望江楼",
+      "level": "",
+      "county": "商州区",
+      "desc": "沿丹江两岸铺开，江水悠悠，望江楼眺望江景，傍晚散步吹风。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/XaJobZyPwoOnY1xS56QclrEznQe",
+      "lng": 109.93,
+      "lat": 33.87,
+      "free": true,
+      "price": "免费开放",
+      "ticket": ""
+    },
+    {
+      "name": "秦岭博物馆",
+      "level": "国家一级",
+      "county": "商州区",
+      "desc": "国内唯一秦岭主题博物馆，地质、动植物、文物，读懂大秦岭。",
+      "img": "bowuguan",
+      "lng": 109.923,
+      "lat": 33.879,
+      "free": true,
+      "price": "免费开放",
+      "ticket": ""
+    },
+    {
+      "name": "天竺山国家森林公园",
+      "level": "4A",
+      "county": "山阳县",
+      "desc": "陕南知名道教名山，主峰 2074 米，奇峰陡立、云海壮阔，有「秦岭奇观」美誉，可坐索道俯瞰群山，日出、云海、秋红叶极具观赏性，山间留存道教古观遗迹。",
+      "img": "tianzhushan",
+      "lng": 110.08,
+      "lat": 33.42,
+      "free": false,
+      "price": "¥50 起",
+      "ticket": ""
+    },
+    {
+      "name": "漫川关古镇",
+      "level": "4A",
+      "county": "山阳县",
+      "desc": "秦楚交界千年水旱码头，典故「朝秦暮楚」发源地。古镇保存鸳鸯戏楼、会馆古建筑，金钱河穿镇而过，秦风楚韵交融，青石板老街古色古香。",
+      "img": "dihua2",
+      "lng": 110.235,
+      "lat": 33.15,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "月亮洞景区",
+      "level": "",
+      "county": "山阳县",
+      "desc": "被誉为「西北第一溶洞」，巨大天然溶洞，洞内石钟乳、石笋千姿百态，彩灯映照下奇幻瑰丽；外部峡谷幽深，山水与溶洞结合。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/CplFbXOJUo2tRXxUzZscolg9n3d",
+      "lng": 110.175,
+      "lat": 33.385,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "天蓬山寨",
+      "level": "4A",
+      "county": "山阳县",
+      "desc": "狭长幽深峡谷，潭水碧绿清澈，有古山寨石墙遗迹，栈道沿峡谷修建，瀑布碧潭相连，适合徒步避暑，山野气息浓厚。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/FSdpbfor4oQVe6xRIguc0RugnTd",
+      "lng": 110.15,
+      "lat": 33.45,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "丰阳塔",
+      "level": "",
+      "county": "山阳县",
+      "desc": "山阳县城地标，唐代古塔，坐落苍龙山，登塔可以俯瞰全城与秦岭群山，是老城历史象征。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/EFZMbQbeXo6YHsxBDHJczgzgnFc",
+      "lng": 109.88,
+      "lat": 33.53,
+      "free": true,
+      "price": "免费开放",
+      "ticket": ""
+    },
+    {
+      "name": "法官秦岭原乡",
+      "level": "",
+      "county": "山阳县",
+      "desc": "田园乡村风光，荷塘梯田、民居散落山间，青山环抱，适合休闲拍照，体验陕南乡村景致。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/Tcr3bEx7Soyp2Sx3IOccmItAn1f",
+      "lng": 110.1,
+      "lat": 33.42,
+      "free": true,
+      "price": "免费开放",
+      "ticket": ""
+    },
+    {
+      "name": "老君山",
+      "level": "3A",
+      "county": "洛南县",
+      "desc": "巡检镇，相传太上老君修炼成仙之地，道教名山，金顶道观、石林溶洞，观日峰上云海日出，避暑访道好去处。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/C11Cb1jyYojEp7xpEPWcPzb1nle",
+      "lng": 110.4,
+      "lat": 34.15,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "仓颉小镇",
+      "level": "4A",
+      "county": "洛南县",
+      "desc": "保安镇，仓颉造字故里，汉字故里，仓颉碑林、仓圣湖与洛河风光，非遗文化主题小镇，文脉悠长。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/L2RfbdwS4o39UJxtjWHc5odwnGc",
+      "lng": 110.1,
+      "lat": 34.12,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "花溪弄",
+      "level": "3A",
+      "county": "洛南县",
+      "desc": "华阳老街，中国首个汉字历史小镇、西北首个江南风情花园小镇，溪街一体、曲径通幽，诗意慢生活。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/HKEVbXg7dohZ7hxt9EhcZ40wn6e",
+      "lng": 110.15,
+      "lat": 34.1,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "音乐小镇",
+      "level": "4A",
+      "county": "洛南县",
+      "desc": "秦岭深处音乐主题小镇，四季花海盛放，田园风光与文艺气息交融，休闲度假胜地。",
+      "img": "music",
+      "lng": 110.125,
+      "lat": 34.078,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "棣花古镇",
+      "level": "4A",
+      "county": "丹凤县",
+      "desc": "商於古道千年古镇，贾平凹故里，宋金边城、二郎庙，千亩荷塘，秦风楚韵交融。",
+      "img": "dihua",
+      "lng": 110.27,
+      "lat": 33.718,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "凤冠山石窟",
+      "level": "",
+      "county": "丹凤县",
+      "desc": "县城北，冠山如雄鸡昂首，悬崖石窟群密布，道教神像造像，丹凤八景之一，登山揽胜。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/MKuOba391oQKU9xgHiFczMZ5nof",
+      "lng": 110.335,
+      "lat": 33.685,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "船帮会馆（花庙）",
+      "level": "",
+      "county": "丹凤县",
+      "desc": "丹江北岸清代水旱码头会馆，木雕精美、戏楼华丽，龙驹寨十大会馆之首，丹凤博物馆所在。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/BsEibqmm4oWxVPxHtOBcMmrnnmd",
+      "lng": 110.33,
+      "lat": 33.7,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "四皓碑林园",
+      "level": "",
+      "county": "丹凤县",
+      "desc": "商镇，秦末商山四皓隐居地，古冢罗列、碑石林立，李白等历代名流多有留题。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/IJcQbW6QnoC9htxDJO0cEQWhnpb",
+      "lng": 110.27,
+      "lat": 33.72,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "金丝峡",
+      "level": "5A",
+      "county": "商南县",
+      "desc": "陕南唯一 5A 景区，中国最美十大峡谷之一，白龙峡一线天、飞瀑流泉，天然氧吧，四季皆景。",
+      "img": "jinsixia",
+      "lng": 110.7,
+      "lat": 33.35,
+      "free": false,
+      "price": "¥100（学生半价¥50）",
+      "ticket": "http://m.jsxjq.cn",
+      "phone": "0914-6566888"
+    },
+    {
+      "name": "阳城驿（闯王寨）",
+      "level": "4A",
+      "county": "商南县",
+      "desc": "富水镇，商於古道古驿站，李自成屯兵练兵之地，闯王文化、驿站文化与茶文化交融。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/HYN4bU2Z8oyXH8xUvg1cyGJAnxb",
+      "lng": 110.615,
+      "lat": 33.275,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": "",
+      "phone": "0914-6466777"
+    },
+    {
+      "name": "文碧峰",
+      "level": "3A",
+      "county": "商南县",
+      "desc": "青山镇，新开岭腹地原生态山野，青山书院遗迹，喀斯特岩壁幽深，草木葱茏，天然氧吧。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/PMeIbp3gZob9t5xWupEc3VWsnG1",
+      "lng": 110.9,
+      "lat": 33.32,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "后湾村",
+      "level": "3A",
+      "county": "商南县",
+      "desc": "清油河镇，秦岭慢谷，群山环抱、绿水环绕，红顶白墙美丽乡村，田园慢生活。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/ZOZWbovW7o8UVMxjY5kc8Nefnms",
+      "lng": 110.75,
+      "lat": 33.35,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "塔云山",
+      "level": "4A",
+      "county": "镇安县",
+      "desc": "秦岭第一仙境，金顶观音殿建于悬崖之巅，仅四根石柱支撑，云海翻涌，天下最险道观。",
+      "img": "tayunshan",
+      "lng": 109.28,
+      "lat": 33.35,
+      "free": false,
+      "price": "¥70 起",
+      "ticket": ""
+    },
+    {
+      "name": "木王国家森林公园",
+      "level": "4A",
+      "county": "镇安县",
+      "desc": "秦岭南麓，十里杜鹃画廊，原始森林、奇峰怪石，春看杜鹃夏避暑，四季皆景。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/LNsKbgsbVoaIkNxaFgtcOHARnEc",
+      "lng": 109.05,
+      "lat": 33.475,
+      "free": false,
+      "price": "¥20 起",
+      "ticket": ""
+    },
+    {
+      "name": "云盖寺古镇",
+      "level": "4A",
+      "county": "镇安县",
+      "desc": "县城西 18 公里，唐代名刹云盖寺，明清徽派古建筑群，秦楚古道驿站，人文厚重。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/BvygbHfdOowXUXxFnXScEopinpb",
+      "lng": 109.16,
+      "lat": 33.42,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "金台山文化旅游区",
+      "level": "",
+      "county": "镇安县",
+      "desc": "县城东侧，唐密祖庭古兴隆寺，唐风古建依山而建，两河环绕，佛教文化胜地。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/AyalbNU2xoAZsexhYC9cMvZgnyd",
+      "lng": 109.15,
+      "lat": 33.43,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "柞水溶洞",
+      "level": "4A",
+      "county": "柞水县",
+      "desc": "县城南，喀斯特溶洞群，天佛洞、佛爷洞，钟乳石千姿百态，灯光下奇幻瑰丽。",
+      "img": "rongdong",
+      "lng": 109.27,
+      "lat": 33.72,
+      "free": false,
+      "price": "¥100 起",
+      "ticket": ""
+    },
+    {
+      "name": "凤凰古镇",
+      "level": "4A",
+      "county": "柞水县",
+      "desc": "社川河畔千年古镇，明清徽派古建筑群保存完好，青石板老街古朴静谧，人间烟火。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/XPDgbfTfeo6O5rxxBidcfYWXnTf",
+      "lng": 109.305,
+      "lat": 33.68,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "牛背梁国家森林公园",
+      "level": "4A",
+      "county": "柞水县",
+      "desc": "营盘镇，秦岭东段最高峰，高山草甸、原始森林，一山分南北，云海壮阔。",
+      "img": "niubeiliang",
+      "lng": 109.38,
+      "lat": 33.8,
+      "free": false,
+      "price": "¥110（线上¥102 起）",
+      "ticket": ""
+    },
+    {
+      "name": "终南山寨",
+      "level": "",
+      "county": "柞水县",
+      "desc": "营盘镇，依山而建的石屋古寨，三街九巷八楼格局，秦岭老屋，古朴山野风情。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/KlI7byl1covFObxd09Kcgr7pnxd",
+      "lng": 109.39,
+      "lat": 33.8,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "卧虎岭景区",
+      "level": "3A",
+      "county": "商州区",
+      "desc": "沙河子镇，南临丹江、北依蟒岭，山脊奇石地质公园、山涧瀑布、祖师庙，还有科普菜园与萌宠乐园，亲子游好去处。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/TJhwbBMnSodMsKx5UktcOm90nGf",
+      "lng": 110.02,
+      "lat": 33.86,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "丹江漂流",
+      "level": "4A",
+      "county": "丹凤县",
+      "desc": "丹江画廊漂流，秦楚水道的山水体验，两岸青山如画，有「西北第一漂」之誉，夏季亲水首选。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/FEqRbdYPMoqgnqxpl4xciLV0npm",
+      "lng": 110.33,
+      "lat": 33.7,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "桃花谷景区",
+      "level": "4A",
+      "county": "丹凤县",
+      "desc": "竹林关镇，国家水土保持科技示范园，春日桃花漫山、溪谷清幽，集生态科普与休闲观光于一体。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/Q41abDiKZobjC7xwh7ocUzPanKd",
+      "lng": 110.48,
+      "lat": 33.55,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "九天山风景区",
+      "level": "4A",
+      "county": "柞水县",
+      "desc": "下梁镇，瀑布飞泻、峡谷清幽，冬季有高山滑雪场，四季皆宜的山水运动型景区。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/LctSbSuCFok9q7xfv0ecgZHRn3e",
+      "lng": 109.16,
+      "lat": 33.63,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "秦楚古道",
+      "level": "3A",
+      "county": "柞水县",
+      "desc": "营盘镇，历史上长安通往金州（安康）的交通要道，南起花门楼、北至天都池，全长 15 公里，沿途溪流瀑布、高山草甸，一山分南北。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/Kgp6bzbQdo7P28xFrFNcklkcnmc",
+      "lng": 109.1,
+      "lat": 33.92,
+      "free": false,
+      "price": "以景区公示为准",
+      "ticket": ""
+    },
+    {
+      "name": "朱家湾村",
+      "level": "世界最佳旅游乡村",
+      "county": "柞水县",
+      "desc": "营盘镇牛背梁下，获评联合国世界旅游组织「最佳旅游乡村」，秦岭山水、乡野民宿与生态康养融合的示范村。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/XFeubXMWioRts1x3imWcprudnKh",
+      "lng": 109.06,
+      "lat": 33.83,
+      "free": true,
+      "price": "免费开放",
+      "ticket": ""
+    },
+    {
+      "name": "草链岭",
+      "level": "",
+      "county": "洛南县",
+      "desc": "洛南最高峰（海拔 2646 米），洛河发源地之一，高山草甸与石海景观，秦岭经典徒步登山地。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/IZT6bylFwoy99Rxbz3ScXulAnsf",
+      "lng": 110.35,
+      "lat": 34.35,
+      "free": true,
+      "price": "免费开放",
+      "ticket": ""
+    }
+  ],
+  "STORIES": [
+    {
+      "name": "洛南猿人遗址",
+      "theme": "远古秦岭的人类序曲",
+      "era": "旧石器时代",
+      "text": "数十万年前，秦岭东段洛南的河谷间，古人类在此刀耕火种、打制石器。这些留存的古人类遗迹证明，商洛是秦岭腹地最早的人类家园之一，在华夏大地还没有文字的时候，先民就在这片山野开启文明的序章。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/TbHzboMbbojk3WxXmmuc8vSYnsf"
+    },
+    {
+      "name": "仓颉造字",
+      "theme": "汉字诞生在洛水之畔",
+      "era": "上古传说",
+      "text": "黄帝史官仓颉来到洛南阳虚山，观察鸟兽蹄印、山川万物的形态，顿悟万物有象，于是创造二十八个古文字，结束了结绳记事。洛南因此被称作汉字故里，直到今天，当地人仍保留谷雨祭祀仓颉的古老传统，文字文明从秦岭洛水边发源，流向华夏四方。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/YQd8bcE6zoLGLLxxKFVcgJeGnHh"
+    },
+    {
+      "name": "商於古道",
+      "theme": "商山四皓的隐士风骨",
+      "era": "春秋战国",
+      "text": "秦末战乱，四位饱学大儒不愿入朝侍奉乱世，隐居商山，采食紫芝为生，世称\"商山四皓\"。刘邦多次征召，四人都拒绝出山。后来张良献计请四皓辅佐太子，刘邦见四位白发老者立于太子身侧，便打消废储念头。大事已成，四皓不受封赏，重回商山归隐。这条古道上，商鞅受封商於十五邑，武关雄关见证秦楚相争，韩愈、白居易、李白等文人往返于此，写下无数诗篇。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/GmSmbwXkMo8KQ3xw9QacVLUonQh"
+    },
+    {
+      "name": "商埠古镇",
+      "theme": "漫川关、凤凰古镇的秦楚烟火",
+      "era": "明清",
+      "text": "明清时期商道往来不绝，漫川关地处秦楚交界，\"朝秦暮楚\"，南北客商汇聚，会馆、戏楼连片；凤凰古镇青石板老街依山而建，南北建筑风格相融。南来北往的货物、习俗在此交汇，是秦楚商贸文化的活化石。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/UyTbbTsYJoQ71Ux5GSWcrsrwnte"
+    },
+    {
+      "name": "棣花古镇·贾平凹故里",
+      "theme": "乡土文学的根",
+      "era": "当代",
+      "text": "棣花古镇是商於古道上的古驿站，也是作家贾平凹的故乡。古镇的清风街、荷塘、老街，就是《秦腔》《主角》里故事的原型。平凹老宅就在古镇之内，保留着作家少年生活的旧居，触摸乡土文学的源头。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/O4AybxcD6oRHvixAIQqc4fNDnvB"
+    },
+    {
+      "name": "秦岭博物馆",
+      "theme": "读懂秦岭的文明新窗口",
+      "era": "当代",
+      "text": "以夏代玉牙璋为灵感，打造\"山水玉璋\"造型，是当代秦岭文化地标。馆中收藏秦岭四宝化石、远古玉器，把从远古到近代秦岭大地的自然与人文故事浓缩其中，续写新时代的秦岭文脉。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/OFXqbptLuoxKYrxosRjcD2YPnRg"
+    },
+    {
+      "name": "洛南音乐小镇",
+      "theme": "汉字故里的现代新韵",
+      "era": "当代",
+      "text": "扎根汉字故里洛南，花海田园与音乐文化相融，古老文脉不再只藏在古籍，化作可赏可游的田园诗意，是传统文脉在当代的新生表达。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/Z1kSbo75koEHARx59mMcPQFrnUh"
+    },
+    {
+      "name": "武关",
+      "theme": "秦楚雄关的风云往事",
+      "era": "春秋战国",
+      "text": "武关是关中四大雄关之一，扼守商於古道咽喉。战国时楚怀王轻信邀约，入武关赴会，被秦国扣留，客死他乡；刘邦率兵由此破关而入，直取咸阳，秦朝就此覆灭。千百年间，关隘见证秦楚博弈、王朝更迭，青山石壁上留存着古道烽烟的记忆。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/Kor0bRzlLoLER9xfZksc7fVunUd"
+    },
+    {
+      "name": "释无业禅师",
+      "theme": "商山走出的一代高僧",
+      "era": "唐代",
+      "text": "唐代高僧释无业，生于商州。少年便能通读大部佛经，讲经说法，被称作佛门神童。两任皇帝接连下诏书，请他入京做国师，他始终婉拒，安守秦岭山林修行。当时流传\"南有盐官，北有无业\"，是盛唐名僧，五百罗汉中位列一尊，为商洛留下禅意文脉。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/BLhWb7VjToc6MBxC07rcPOhpnnd"
+    },
+    {
+      "name": "闯王生龙寨",
+      "theme": "秦岭山中重整旗鼓",
+      "era": "明末",
+      "text": "明末李自成兵败之后，率军退入商洛群山，驻扎生龙寨休养生息。在这里屯兵、练兵、积蓄力量，蛰伏数年后再次举兵出山。莽莽秦岭成了义军的庇护之地，山间古寨，留存着那段乱世风云传说。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/HYN4bU2Z8oyXH8xUvg1cyGJAnxb"
+    },
+    {
+      "name": "庾家河旧址",
+      "theme": "红二十五军的红色火种",
+      "era": "近现代",
+      "text": "1934年，红二十五军长征进入商洛，在庾家河召开重要会议，创建鄂豫陕革命根据地。在群山之间和敌军周旋，打了多场经典战斗，把革命火种播撒在秦岭腹地。庾家河会议，是长征路上重要的一页，红色血脉汇入商洛千年文脉。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/ZQzobOb9Mogl1hxGCEGcU42qnDd"
+    },
+    {
+      "name": "韩愈过商山道",
+      "theme": "风雪秦岭千古名句",
+      "era": "唐代",
+      "text": "韩愈上书劝谏皇帝，一朝获罪，被贬往潮州。途经商洛商於古道，大雪封山，秦岭横阻前路，写下\"云横秦岭家何在，雪拥蓝关马不前\"。苍茫风雪里的一声长叹，让秦岭的苍凉风骨，留在唐诗长河中。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/XVfUbEBsEo3pvBxLnnTcPDdGnsb"
+    },
+    {
+      "name": "杏坪皮纸",
+      "theme": "秦岭草木化古纸",
+      "era": "唐宋至今",
+      "text": "柞水杏坪的古法皮纸，技艺源自唐代。匠人采伐山间树皮，经反复浸泡、捶打、荡帘，以山泉水造纸。古时这里是秦楚水陆码头，皮纸顺着丹江水路远销川鄂。一张古纸，藏着秦岭草木的温柔，代代匠人守住古老手艺。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/CUSdb7OVRogvPUx48qeccP9bnSg"
+    },
+    {
+      "name": "东龙山狗娃咪",
+      "theme": "红泥捏就山野童声",
+      "era": "明清至今",
+      "text": "商州东龙山的泥哨\"狗娃咪\"，是古老的民间手艺。取本地红胶泥，捏成小巧的兽形哨子，一吹便能鸣响。从前每逢庙会，山野孩童人手一只。一代代匠人守着红泥，把山里孩童的童年乐声，保存至今。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/HLvBb8lBpocPI3xCIXkcLJIcnbc"
+    },
+    {
+      "name": "商芝肉",
+      "theme": "源自商山四皓的山野味道",
+      "era": "秦汉至今",
+      "text": "当年商山四皓隐居山中，采食紫芝（商芝蕨菜）充饥。后世百姓以此入菜，做成商芝肉。山林食材化作佳肴，一道菜连着隐士淡泊的故事，是秦岭藏在烟火里的文脉。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/CblibIs70oz1SMxbeGvcplY6nbf"
+    }
+  ],
+  "HERITAGE": [
+    {
+      "region": "全市",
+      "name": "商洛花鼓",
+      "type": "传统戏剧",
+      "desc": "商洛地方戏曲，集山歌、小调于一体，乡土气息浓厚，是陕南代表性剧种。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/Z2ZQb1JoDoiH20xAErscbRmMnVh"
+    },
+    {
+      "region": "全市",
+      "name": "商洛道情戏",
+      "type": "传统戏剧",
+      "desc": "以道情唱腔为核心，说唱结合，历史悠久，广泛流传于商洛各地。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/Vx90blk58oRceZxPF69c3TxOnQh"
+    },
+    {
+      "region": "全市",
+      "name": "洛南静板书",
+      "type": "曲艺",
+      "desc": "洛南民间说唱曲艺，一人多能，自弹自唱，说唱民间故事、劝善教化内容。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/VClEb5kv4oBZ5Ox3Bf1cuBlonUb"
+    },
+    {
+      "region": "全市",
+      "name": "仓颉传说",
+      "type": "民间文学",
+      "desc": "流传于洛南一带，讲述仓颉造字的古老民间传说故事。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/YQd8bcE6zoLGLLxxKFVcgJeGnHh"
+    },
+    {
+      "region": "商州区",
+      "name": "东龙山狗娃咪泥哨",
+      "type": "传统美术",
+      "desc": "以东龙山红胶泥捏制、烧制而成，造型为小动物、人物，既是儿童玩具，也是民间工艺品，流传数百年。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/HLvBb8lBpocPI3xCIXkcLJIcnbc"
+    },
+    {
+      "region": "商州区",
+      "name": "商州皮影戏",
+      "type": "传统美术",
+      "desc": "明末清初起源，皮影雕刻精美，以道情唱腔表演神话、历史故事，光影表演极具地域特色。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/QATrblprxoAV3oxvOL7cU1iOnXb"
+    },
+    {
+      "region": "商州区",
+      "name": "黑龙口豆腐干制作技艺",
+      "type": "传统技艺",
+      "desc": "已有三四百年历史，选用高山黄豆、山泉浆水点卤，经十余道手工工序制成，风味独特。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/X0MUb7WvWopNFLxV6DrciSDKnob"
+    },
+    {
+      "region": "商州区",
+      "name": "商州花灯",
+      "type": "传统美术",
+      "desc": "商州传统节庆彩灯，竹篾扎骨架，纸糊彩绘，春节、庙会用于民俗展演。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/LOlIbeRS5oemuvx3rQlcWt9rnJe"
+    },
+    {
+      "region": "商州区",
+      "name": "商洛核桃木雕刻",
+      "type": "传统美术",
+      "desc": "利用本地核桃木木料，雕刻摆件、家具构件，刀法古朴，题材取材民间民俗。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/HmECbTmzxoiJiVxYLUacdd50nxS"
+    },
+    {
+      "region": "洛南县",
+      "name": "洛南草编",
+      "type": "传统美术",
+      "desc": "利用麦秆、玉米皮等草本植物编织筐、垫、收纳器具，就地取材，是秦岭山区传统民间编织技艺。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/CPcDbXmQzoTrMWxeZNicAabanoe"
+    },
+    {
+      "region": "洛南县",
+      "name": "洛源豆腐干制作技艺",
+      "type": "传统技艺",
+      "desc": "洛源本地山泉制作，手工点浆压制，豆香醇厚，为洛南传统特色食品技艺。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/QmuWbrToEoHDY4x5ApBcqwRDn7e"
+    },
+    {
+      "region": "洛南县",
+      "name": "洛南刺绣",
+      "type": "传统美术",
+      "desc": "民间妇女手工刺绣，多用于服饰、枕套、荷包，纹样花鸟吉祥，色彩艳丽。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/KkKTb2LCIowhjdxNkLjcfXfWnre"
+    },
+    {
+      "region": "洛南县",
+      "name": "洛南麦秆画",
+      "type": "传统美术",
+      "desc": "以麦秆为原料，经裁剪、烫色、粘贴成画，题材山水花鸟，地方特色工艺美术。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/Z3Csbjjcboy50pxjVQScVXD2nef"
+    },
+    {
+      "region": "洛南县",
+      "name": "洛南粮字",
+      "type": "传统美术",
+      "desc": "利用粮食籽粒粘贴作画写字，民俗工艺，多用于节庆祈福。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/XmxFbX97PodoaZxo7oacsL6VnMh"
+    },
+    {
+      "region": "丹凤县",
+      "name": "丹凤葡萄酒酿造技艺",
+      "type": "传统技艺",
+      "desc": "始于1911年，百年酿酒技艺，融合中西酿造工艺，是陕西老牌葡萄酒酿造技艺。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/FoZtbvXmaorvC9xWtczcBbc1nPb"
+    },
+    {
+      "region": "丹凤县",
+      "name": "丹凤剪纸",
+      "type": "传统美术",
+      "desc": "民间剪纸，窗花、民俗纹样，用于年节婚嫁，构图简练质朴。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/ET0tbEQo3oyVlnxFqGFcsCebnxL"
+    },
+    {
+      "region": "丹凤县",
+      "name": "丹凤刺绣",
+      "type": "传统美术",
+      "desc": "民间布艺刺绣，绣制香包、服饰纹样，传承陕南民间审美。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/R8jbbcYhzoy4AZxQhD0cGDEnndh"
+    },
+    {
+      "region": "丹凤县",
+      "name": "丹凤吊挂面",
+      "type": "传统技艺",
+      "desc": "手工拉吊挂面，依靠自然风力风干，面条细匀，为丹凤传统面食技艺。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/Bv7Xbx35Wowp4cxGdxucmH2kn7f"
+    },
+    {
+      "region": "山阳县",
+      "name": "漫川大调",
+      "type": "曲艺",
+      "desc": "流传于漫川关一带的民间曲艺大调，曲牌繁多、唱腔婉转，融合秦楚风韵，被誉为民间曲艺活化石。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/JUCNbjfWzoJbkixTch2c8AiZnfc"
+    },
+    {
+      "region": "山阳县",
+      "name": "中村花灯",
+      "type": "传统美术",
+      "desc": "山阳中村地区传统花灯，竹篾扎制，节庆社火表演使用。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/CVUBbjqdOo6SX0xq3DQcud2TnDb"
+    },
+    {
+      "region": "山阳县",
+      "name": "山阳面花",
+      "type": "传统美术",
+      "desc": "以面粉塑形蒸制，花鸟、人物造型，用于祭祀、婚嫁、祝寿民俗活动。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/YPQ4bNJ3Dont0dx48Ajc23osnIe"
+    },
+    {
+      "region": "商南县",
+      "name": "商南香包",
+      "type": "传统美术",
+      "desc": "布艺缝制香包，填充香草，纹样吉祥，端午民俗手工艺品。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/PxNsb0GmCokRIrxPwCEcOHDnnAh"
+    },
+    {
+      "region": "商南县",
+      "name": "商南草鞋",
+      "type": "传统技艺",
+      "desc": "以当地稻草、龙须草编织，旧时山区百姓日常穿着，实用民间编织技艺。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/JKHfbnAqTo9sAAxYNiPchXXgnOd"
+    },
+    {
+      "region": "镇安县",
+      "name": "镇安土纸",
+      "type": "传统技艺",
+      "desc": "以构树皮为原料的古法手工造纸，传统山乡造纸技艺，纸张用于包装、祭祀。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/OLX8banECoNQJPx7zOLczV3Qn1g"
+    },
+    {
+      "region": "柞水县",
+      "name": "杏坪皮纸制作技艺",
+      "type": "传统技艺",
+      "desc": "古法造纸\"活化石\"，枸树皮为原料，七十多道工序，纸张耐存，用于书画、祭祀、包装。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/CUSdb7OVRogvPUx48qeccP9bnSg"
+    },
+    {
+      "region": "柞水县",
+      "name": "柞水火纸制作技艺",
+      "type": "传统技艺",
+      "desc": "柞水民间祭祀用火纸，树皮手工捣浆抄造，属于地方古法造纸分支。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/Ba9tbXQoCocG7exbE3hcMWHNntz"
+    },
+    {
+      "region": "柞水县",
+      "name": "圈椅工艺",
+      "type": "传统技艺",
+      "desc": "柞水传统木工技艺，纯手工打造圈椅，榫卯结构，实木家具制作手艺。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/K6Lsba05roppLHxtH55c9S32nsc"
+    },
+    {
+      "region": "柞水县",
+      "name": "郭氏沥书",
+      "type": "传统美术",
+      "desc": "以沥料堆塑写字作画，特殊民间工艺美术。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/EKyqbRFbVoBUBfx3FJ8cvqIrnsd"
+    },
+    {
+      "region": "柞水县",
+      "name": "郭氏沙书",
+      "type": "传统美术",
+      "desc": "以沙子铺撒书写作画，街头民俗表演技艺。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/R8NkbWTLxopnr1xgf7AcrtdZn4e"
+    }
+  ],
+  "FOODS": [
+    {
+      "region": "商州区",
+      "name": "商州水煎包",
+      "desc": "本地经典早餐，发酵面皮，馅料多为韭菜、粉条、豆腐，底部煎至金黄焦脆，蘸醋辣汁食用，外脆内软。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/Ttjfb0C9WobgTcxPwAUcN9JVnRb"
+    },
+    {
+      "region": "商州区",
+      "name": "商州大烩菜",
+      "desc": "商洛家常硬菜，猪肉、丸子、豆腐、粉条与时令蔬菜一同炖煮，汤汁醇厚，家宴待客常用。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/Dev5bhXzCoonXZxjgi3cvozRnVg"
+    },
+    {
+      "region": "商州区",
+      "name": "商芝肉",
+      "desc": "商洛特色宴席菜，带皮五花肉搭配秦岭商芝（蕨菜）蒸制，肉肥而不腻，带有野菜清香。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/CblibIs70oz1SMxbeGvcplY6nbf"
+    },
+    {
+      "region": "商州区",
+      "name": "商州核桃、丹参",
+      "desc": "秦岭药库出品，商洛核桃壳薄仁香、丹参道地，均为商州名产。",
+      "spec": true,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/FIvrbehvTocEfMxpjNCc5b2inwd"
+    },
+    {
+      "region": "洛南县",
+      "name": "洛源豆腐干",
+      "desc": "省级非遗，依托洛源泉水古法制作，经卤制阴干，色泽褐黄，紧实耐嚼，咸香，可凉拌、炒菜。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/KaQAbMk7BozvvUxZGtOcb5XYnSh"
+    },
+    {
+      "region": "洛南县",
+      "name": "热豆腐",
+      "desc": "现点现切的嫩豆腐，蘸辣椒盐水直接食用，豆香醇厚，街头传统小吃。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/QpIdbZuc3orCmoxDHUGck6qenFh"
+    },
+    {
+      "region": "洛南县",
+      "name": "橡子凉粉",
+      "desc": "橡树果实提取淀粉制成，口感 Q 弹爽滑，拌油泼辣子、醋汁，山野风味浓郁。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/Gi1abXUlcobVwbx2LsLcjLMpn7a"
+    },
+    {
+      "region": "洛南县",
+      "name": "洛南核桃、核桃饼",
+      "desc": "核桃之乡，鲜核桃香脆甘甜，核桃饼酥香可口，秦岭山味。",
+      "spec": true,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/G5cAbc6AXodKMax7RyLcPI4fnY6"
+    },
+    {
+      "region": "丹凤县",
+      "name": "丹凤牛筋面",
+      "desc": "当地代表性小吃，面身柔韧筋道，配上辣椒油、醋、香菜调味，大街小巷随处可见。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/R0psbEz2woO2XexKhXvcInU9nye"
+    },
+    {
+      "region": "丹凤县",
+      "name": "糊汤面",
+      "desc": "玉米糁熬成糊糊下入面条，搭配青菜辣椒，热乎暖胃，山区传统家常饭。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/SCyJbpo7wowlPmx9JfocCGDln8e"
+    },
+    {
+      "region": "丹凤县",
+      "name": "丹凤油旋",
+      "desc": "酥皮烙饼，层次分明，外皮酥脆，内里松软。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/PGD7bt7QHo2oj9xFoRac11esnhU"
+    },
+    {
+      "region": "丹凤县",
+      "name": "丹凤葡萄酒、山茱萸",
+      "desc": "百年丹凤葡萄酒甘醇，山茱萸为养生果实，秦岭南坡风物。",
+      "spec": true,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/UbeZblOvsoO77nxBK3WchE5gn6d"
+    },
+    {
+      "region": "商南县",
+      "name": "神仙叶凉粉（神仙豆腐）",
+      "desc": "山中神仙树叶揉搓出胶质自然凝固成翠绿色凉粉，无淀粉，清爽解腻，浇蒜醋辣子食用，陕南山野特色小吃。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/M3BrbQOvFouDcAxjj5tc1J7WnZJ"
+    },
+    {
+      "region": "商南县",
+      "name": "商南十三花",
+      "desc": "非遗传统宴席，当地高规格待客宴席，九凉四热，荤素齐全，多用于节庆、红白喜事。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/QlEBbc2LjoyhJ5xTSiYclTl5nLh"
+    },
+    {
+      "region": "商南县",
+      "name": "商南绿茶、商南天麻",
+      "desc": "商南绿茶清香回甘，天麻为秦岭道地药材，山茶药香。",
+      "spec": true,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/E4Rdb1Ot6oNP34xRkKDcV250ndh"
+    },
+    {
+      "region": "山阳县",
+      "name": "漫川八大件",
+      "desc": "省级非物质文化遗产，漫川关古镇传统宴席，秦楚交融风味，为当地待客最高规格，由四扣碗、四炒盘八道主菜构成。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/HnfYbaZjHo6XSJxMfA2c2pIcnEg"
+    },
+    {
+      "region": "山阳县",
+      "name": "山阳羊肉泡馍",
+      "desc": "区别西安泡馍，汤汁清鲜，馍质偏软，卤羊肉搭配粉丝葱花，人气早餐。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/AMScbJgGiooaptxLNA7cckf9nLc"
+    },
+    {
+      "region": "山阳县",
+      "name": "山阳蒸碗",
+      "desc": "多种蒸菜组合，小酥肉、粉蒸肉等，软烂鲜香，年节宴席必备。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/PgFGb5y7logYcEx4HOzcOGTknKg"
+    },
+    {
+      "region": "山阳县",
+      "name": "山阳熏腊肉",
+      "desc": "腊月腌制，柏枝熏烤，肉质红亮醇香，适合炒菜、炖煮。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/OlfibsQ3tod0AXxl1GbcbGxTnzd"
+    },
+    {
+      "region": "山阳县",
+      "name": "山阳核桃、九眼莲",
+      "desc": "山阳核桃仁大饱满，九眼莲藕洁白多孔清脆，山阳双宝。",
+      "spec": true,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/R7Pvb2RNWo27BjxRaiKcKTKwnvh"
+    },
+    {
+      "region": "镇安县",
+      "name": "镇安黑米皮",
+      "desc": "黑米制作面皮，颜色深褐，筋道柔软，酸辣调味，营养价值高于普通面皮。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/JVaGbmuJ3o7Doix7IRpcz8MJnZb"
+    },
+    {
+      "region": "镇安县",
+      "name": "板栗焖土鸡",
+      "desc": "镇安板栗饱满香甜，与本地土鸡焖炖，鸡肉鲜香，板栗软糯。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/MKgnbyjpyoXTF0xqhl2cnpQTnCc"
+    },
+    {
+      "region": "镇安县",
+      "name": "镇安芋粉炒腊肉",
+      "desc": "洋芋制成芋粉，搭配腊肉爆炒，Q 弹咸香。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/IPvxbgiTqoagdixyof2cPqyhnbf"
+    },
+    {
+      "region": "镇安县",
+      "name": "镇安大板栗、镇安木耳",
+      "desc": "镇安大板栗香甜软糯，木耳肉厚质优，山货名品。",
+      "spec": true,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/DsaZbHjZNo0TggxZPLmc59dOnkn"
+    },
+    {
+      "region": "柞水县",
+      "name": "洋芋糍粑",
+      "desc": "高山土豆蒸熟捶打而成，黏糯劲道，可蘸酸辣汁、酸菜汤食用，也可拌蜂蜜做甜食，柞水招牌小吃。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/H27ybMPYXoneBHxQXPAcJiMbnbh"
+    },
+    {
+      "region": "柞水县",
+      "name": "柞水十三花",
+      "desc": "本地传统宴席，汇集各类山珍，蒸炒炖菜品齐全，用于招待贵客。",
+      "spec": false,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/V3LObmUwjol9VPxAz3mcBsRvnId"
+    },
+    {
+      "region": "柞水县",
+      "name": "柞水黑木耳、柞水核桃",
+      "desc": "柞水黑木耳耳大肉厚，核桃壳薄仁香，秦岭山珍。",
+      "spec": true,
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/YvZqbhA42o4RXhxp1KGchJzsnAc"
+    }
+  ],
+  "WN_CARDS": [
+    {
+      "v": "22℃",
+      "t": "年均气温 · 气候疗愈",
+      "p": "全国唯一中国气候康养之都，夏季平均气温 22℃，避暑康养天然福地。"
+    },
+    {
+      "v": "70%",
+      "t": "森林覆盖率 · 秦岭绿心",
+      "p": "国家森林城市，全域 6 县区获评中国天然氧吧，空气优良天数位居全省前列。"
+    },
+    {
+      "v": "1192",
+      "t": "种道地药材 · 秦岭药库",
+      "p": "丹参、天麻、连翘、五味子品质出众，中医药康养资源全国少有。"
+    }
+  ],
+  "WN_BLOCKS": [
+    {
+      "t": "气候康养",
+      "st": "22℃的清凉福地",
+      "p": "商洛夏季平均气温 22℃，舒适气候期长，空气优良天数位居全省前列，空气中富含负氧离子，适宜避暑旅居、避霾休养，是天然气候疗愈地。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/WisYbWvKPolQcNxQlvecqBn4nSa"
+    },
+    {
+      "t": "森林康养",
+      "st": "秦岭森呼吸",
+      "p": "大面积原始山林，拥有多处国家级森林康养基地与康养村镇。漫步森林步道，沐浴森林氧吧，沉浸式自然疗愈。代表：牛背梁国家级旅游度假区、朱家湾村（联合国世界最佳旅游乡村）。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/SwdCbnUGVoPFprxqtPTcwsR4ngh"
+    },
+    {
+      "t": "中医药康养",
+      "st": "秦岭药库",
+      "p": "秦岭孕育千余种中药材，丹参、天麻、连翘、五味子品质出众。发展中医理疗、药膳养生、中药研学，推动药食同源，把中药材资源转化为康养体验产品。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/XcR1b8yPOorHeexlt12chF5EnXd"
+    },
+    {
+      "t": "文旅乡村康养",
+      "st": "慢居山水",
+      "p": "众多 A 级景区、精品民宿集群。既能游峡谷山水，也可入住乡村民宿，体验田园慢生活，实现短期度假、中长期旅居康养。金丝峡、柞水溶洞、蟒岭绿道都是热门去处。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/B5g1baP9po84aLxuF0tc3M75nec"
+    },
+    {
+      "t": "运动 & 食疗康养",
+      "st": "山水之间吃出健康",
+      "p": "山地徒步、骑行、登山等户外运动；依托核桃、木耳、香菇、土蜂蜜、丹凤葡萄酒等本地物产，开发秦岭药膳，吃出健康康养滋味。",
+      "img": "https://media.doubao.com/space/api/box/stream/download/all_by_mount_point/OQwpbpNy3o4VEfxNweEcQlcMnze"
+    }
+  ],
+  "WN_DESTS": [
+    {
+      "n": "牛背梁国家级旅游度假区",
+      "d": "森林康养标杆 · 高山森林步道"
+    },
+    {
+      "n": "朱家湾村",
+      "d": "乡村旅居民宿 · 联合国世界最佳旅游乡村"
+    },
+    {
+      "n": "金丝峡",
+      "d": "峡谷氧吧 · 山水康养"
+    },
+    {
+      "n": "木王山、天竺山",
+      "d": "高山云海 · 森林休闲"
+    },
+    {
+      "n": "各区县康养民宿集群",
+      "d": "山居静养 · 温泉休闲点位"
+    }
+  ],
+  "WN_SEASONS": [
+    {
+      "s": "春",
+      "p": "踏青赏花、中药研学、山野徒步。春花漫山，药香研学。"
+    },
+    {
+      "s": "夏",
+      "p": "避暑纳凉，森林旅居，核心旺季。22℃清凉，森呼吸避暑。"
+    },
+    {
+      "s": "秋",
+      "p": "采摘食养，登高赏秋。山果满枝，层林尽染。"
+    },
+    {
+      "s": "冬",
+      "p": "山居静养、温泉休闲，全季康养不止夏天。暖汤热茶，静养身心。"
+    }
+  ],
+  "NEWS": [
+    {
+      "t": "重大活动",
+      "c": "新闻",
+      "d": "2026-10-15",
+      "h": "第十一届陕西省艺术节在商洛落幕，秦岭山城着力构建\"永不落幕的艺术节\"",
+      "p": "本届艺术节期间开展 362 场公共文化活动、210 场次文旅促消费活动、67 项惠民举措，发布\"跟着艺术节游商洛\"精品线路。",
+      "url": "http://m.toutiao.com/group/7696734933801058850/"
+    },
+    {
+      "t": "节庆数据",
+      "c": "数据",
+      "d": "2026-10-10",
+      "h": "国庆假期商洛接待游客同比增长 15.95%，金丝峡接待量激增 185%",
+      "p": "西十、西康高铁开通叠加第十一届陕西省艺术节落地，商洛国庆文旅市场圆满收官：全市接待游客人次同比增长 15.95%、旅游总收入同比增长 14.24%。",
+      "url": "https://m.thepaper.cn/newsDetail_forward_34225758"
+    },
+    {
+      "t": "出行利好",
+      "c": "交通",
+      "d": "2026-09",
+      "h": "西十、西康高铁开通，商洛迈入高铁时代、融入西安都市圈",
+      "p": "依托高铁优势，商洛推出面向持票观众、高铁游客的差异化旅游优惠政策，文化流量加速转化为文旅消费增量。",
+      "url": "https://www.shangluo.gov.cn/wlj/info/1017/6424.htm"
+    },
+    {
+      "t": "惠民政策",
+      "c": "政策",
+      "d": "2026-10-14",
+      "h": "宁商协作 35 载：商洛 16 家收费景区对南京籍游客全年免首道门票",
+      "p": "含 5A 金丝峡在内共 16 家核心收费景区，南京籍游客凭身份证或户口本即可免首道门票（2026 全年，法定节假日除外；索道、观光车另计）。",
+      "url": "https://www.iesdouyin.com/share/video/7696208546442104074"
+    },
+    {
+      "t": "乡村文旅",
+      "c": "活动",
+      "d": "2026-10-12",
+      "h": "2026 全国秋季\"村晚\"示范展示活动在山阳天竺山景区圆满举行",
+      "p": "全国秋季\"村晚\"示范展示落地天竺山，乡土节目与秦岭山水同台，展示商洛乡村文旅新风貌。",
+      "url": "https://www.shangluo.gov.cn/wlj/index/gzdt.htm"
+    },
+    {
+      "t": "主题营销",
+      "c": "活动",
+      "d": "2026-04-30",
+      "h": "\"秦岭商州美如画\"短视频打卡大赛，10 万奖金等你瓜分",
+      "p": "在抖音发布到陕西商州旅游的短视频并添加话题 #秦岭商州美如画，即有机会赢取 10 万元奖金（活动至 10 月 31 日）。",
+      "url": "https://www.iesdouyin.com/share/video/7634451615068484517"
+    },
+    {
+      "t": "推广运营",
+      "c": "活动",
+      "d": "2026-10",
+      "h": "\"跟着第十一届陕西省艺术节游商洛\"达人踩线活动成功举办",
+      "p": "面向持票观众、高铁游客、自媒体达人推出差异化优惠政策，达人踩线带动艺术节文旅流量落地。",
+      "url": "https://www.shangluo.gov.cn/wlj/index/gzdt.htm"
+    },
+    {
+      "t": "假日保障",
+      "c": "资讯",
+      "d": "2026-09",
+      "h": "2026 年中秋假期商洛文旅市场平稳有序",
+      "p": "节前部署与假日保障并行，商洛文旅市场总体平稳有序，主要景区运行正常。",
+      "url": "https://www.shangluo.gov.cn/wlj/index/gzdt.htm"
+    }
+  ],
+  "CALENDAR": [
+    {
+      "d": "全年",
+      "s": "惠民",
+      "t": "宁商协作 · 16 景区免票",
+      "p": "南京籍游客凭身份证或户口本，16 家收费景区首道门票全免（法定节假日除外）。"
+    },
+    {
+      "d": "9-10月",
+      "s": "艺术节",
+      "t": "第十一届陕西省艺术节",
+      "p": "362 场公共文化活动、\"跟着艺术节游商洛\"精品线路同步上线。"
+    },
+    {
+      "d": "10月",
+      "s": "金秋",
+      "t": "秦岭红叶观赏季",
+      "p": "天竺山、木王层林尽染，登高赏秋正当时。"
+    },
+    {
+      "d": "11月",
+      "s": "初冬",
+      "t": "商洛花鼓非遗展演月",
+      "p": "国家级非遗好戏连台，剧场与庙会同开锣。"
+    },
+    {
+      "d": "4月",
+      "s": "谷雨",
+      "t": "洛南 · 谷雨祭仓颉",
+      "p": "汉字故里传承千年的祭仓颉传统与汉字文化节。"
+    }
+  ],
+  "MEDIA": [
+    {
+      "n": "官方网站",
+      "d": "商洛市文化和旅游局",
+      "icon": "site",
+      "url": "https://www.shangluo.gov.cn/wlj/"
+    },
+    {
+      "n": "微信公众号",
+      "d": "搜索关注「商洛文旅」",
+      "icon": "wechat",
+      "url": ""
+    },
+    {
+      "n": "抖音官方号",
+      "d": "搜索关注「商洛文旅」",
+      "icon": "douyin",
+      "url": ""
+    },
+    {
+      "n": "政务公开平台",
+      "d": "商洛市人民政府",
+      "icon": "gov",
+      "url": "https://www.shangluo.gov.cn/"
+    }
+  ],
+  "REC": {
+    "season": [
+      {
+        "img": "music",
+        "tag": "春 · 赏花",
+        "t": "秦岭花海线",
+        "p": "山花烂漫时节，打卡洛南音乐小镇四季花海与汉字故里田园春光，骑行慢赏。",
+        "go": "scenery"
+      },
+      {
+        "img": "jinsixia",
+        "tag": "夏 · 避暑",
+        "t": "峡谷避暑线",
+        "p": "金丝峡清凉水世界、牛背梁森呼吸，22℃的夏天藏在秦岭腹地。",
+        "go": "scenery"
+      },
+      {
+        "img": "tianzhushan",
+        "tag": "秋 · 赏叶",
+        "t": "秦岭红叶线",
+        "p": "天竺山、木王国家森林公园层林尽染，登高赏秋正当时。",
+        "go": "scenery"
+      },
+      {
+        "img": "huagu2",
+        "tag": "冬 · 民俗",
+        "t": "民俗年味线",
+        "p": "商洛花鼓新春展演、古镇社火巡游，在凤凰古镇里过大年。",
+        "go": "intangible"
+      }
+    ],
+    "crowd": [
+      {
+        "img": "rongdong",
+        "tag": "亲子",
+        "t": "亲子童趣",
+        "p": "柞水溶洞地质奇观像地下宫殿，凤凰古镇老街里寻宝，寓教于乐。",
+        "go": "scenery"
+      },
+      {
+        "img": "bowuguan",
+        "tag": "研学",
+        "t": "研学课堂",
+        "p": "秦岭博物馆看秦岭四宝与地质演变，仓颉故里寻汉字之源。",
+        "go": "culture"
+      },
+      {
+        "img": "niubeiliang",
+        "tag": "康养",
+        "t": "康养慢行",
+        "p": "牛背梁云海洗肺、22℃康养民宿慢生活，给身心放个假。",
+        "go": "wellness"
+      },
+      {
+        "img": "tayunshan",
+        "tag": "摄影",
+        "t": "摄影追光",
+        "p": "塔云山金顶晨雾、金丝峡一线天，机位与光影都已备好。",
+        "go": "scenery"
+      }
+    ],
+    "hot": [
+      {
+        "img": "hero2",
+        "tag": "高铁出行",
+        "t": "高铁周末游商洛",
+        "p": "西十、西康高铁开通，西安出发 1 小时进秦岭，周末两日游遍商洛山水。",
+        "go": "events"
+      },
+      {
+        "img": "huagu",
+        "tag": "重大活动",
+        "t": "跟着艺术节游商洛",
+        "p": "第十一届陕西省艺术节落幕，362 场文化活动，持票观众享旅游优惠。",
+        "go": "events"
+      },
+      {
+        "img": "jinsixia",
+        "tag": "惠民政策",
+        "t": "南京游客免票游",
+        "p": "宁商协作 35 载，16 家收费景区对南京籍游客全年免首道门票，含 5A 金丝峡。",
+        "go": "events"
+      },
+      {
+        "img": "tianzhushan",
+        "tag": "节庆数据",
+        "t": "国庆爆款目的地",
+        "p": "国庆假期商洛接待游客同比增 15.95%，金丝峡接待量激增 185%，错峰更佳。",
+        "go": "events"
+      }
+    ]
+  },
+  "ROUTES": {
+    "parent": [
+      {
+        "title": "亲子 · 柞水奇观日",
+        "stops": [
+          [
+            "09:30",
+            "柞水溶洞",
+            "地下宫殿 · 亲子探秘"
+          ],
+          [
+            "12:30",
+            "凤凰古镇",
+            "老街寻宝 · 农家午餐"
+          ],
+          [
+            "15:30",
+            "牛背梁",
+            "森林步道轻松漫步"
+          ],
+          [
+            "17:30",
+            "返回出发地"
+          ]
+        ],
+        "food": "商州大烩菜 · 锅盔辣子"
+      },
+      {
+        "title": "亲子 · 商州博物日",
+        "stops": [
+          [
+            "09:30",
+            "秦岭博物馆",
+            "秦岭四宝 · 互动展陈"
+          ],
+          [
+            "12:30",
+            "金凤山",
+            "城郊揽胜 · 草地野餐"
+          ],
+          [
+            "15:30",
+            "江山景区",
+            "丹江湿地亲水漫步"
+          ],
+          [
+            "17:30",
+            "返回出发地"
+          ]
+        ],
+        "food": "山阳羊肉泡馍 · 洋芋糍粑"
+      },
+      {
+        "title": "亲子 · 丹凤荷塘日",
+        "stops": [
+          [
+            "09:30",
+            "棣花古镇",
+            "荷塘清风 · 平凹故里"
+          ],
+          [
+            "12:30",
+            "古镇午餐",
+            "清风街老味道"
+          ],
+          [
+            "14:00",
+            "丹江漂流",
+            "亲水体验（夏季）"
+          ],
+          [
+            "16:30",
+            "返回出发地"
+          ]
+        ],
+        "food": "漫川八大件"
+      }
+    ],
+    "study": [
+      {
+        "title": "研学 · 汉字之源日",
+        "stops": [
+          [
+            "09:00",
+            "仓颉造字传说地",
+            "寻汉字之源 · 谷雨祭仓颉"
+          ],
+          [
+            "12:30",
+            "洛南音乐小镇",
+            "田园课堂 · 午餐"
+          ],
+          [
+            "14:30",
+            "洛南猿人遗址",
+            "触摸秦岭人类史"
+          ],
+          [
+            "16:30",
+            "返回出发地"
+          ]
+        ],
+        "food": "洋芋糍粑 · 豆腐宴"
+      },
+      {
+        "title": "研学 · 秦岭课堂日",
+        "stops": [
+          [
+            "09:00",
+            "秦岭博物馆",
+            "地质演变 · 秦岭四宝"
+          ],
+          [
+            "12:30",
+            "商州午餐",
+            "城关老字号"
+          ],
+          [
+            "14:00",
+            "柞水溶洞",
+            "喀斯特地质实践课"
+          ],
+          [
+            "17:00",
+            "返回出发地"
+          ]
+        ],
+        "food": "商州大烩菜"
+      },
+      {
+        "title": "研学 · 古道历史日",
+        "stops": [
+          [
+            "09:00",
+            "漫川关古镇",
+            "秦楚雄关 · 商道课堂"
+          ],
+          [
+            "12:30",
+            "古镇宴席",
+            "八大件体验"
+          ],
+          [
+            "14:00",
+            "月亮洞",
+            "地质探洞"
+          ],
+          [
+            "16:30",
+            "返回出发地"
+          ]
+        ],
+        "food": "漫川八大件"
+      }
+    ],
+    "health": [
+      {
+        "title": "康养 · 牛背梁森呼吸",
+        "stops": [
+          [
+            "08:30",
+            "牛背梁",
+            "森林步道 · 云海观景"
+          ],
+          [
+            "12:30",
+            "营盘镇午餐",
+            "秦岭山野菜"
+          ],
+          [
+            "14:00",
+            "柞水溶洞",
+            "洞天清凉慢行"
+          ],
+          [
+            "16:30",
+            "返回出发地"
+          ]
+        ],
+        "food": "柞水腊肉 · 山野菜"
+      },
+      {
+        "title": "康养 · 22℃民宿慢行",
+        "stops": [
+          [
+            "09:30",
+            "洛南音乐小镇",
+            "花海漫步 · 慢生活"
+          ],
+          [
+            "12:30",
+            "音乐小镇午餐",
+            "田园简餐"
+          ],
+          [
+            "14:00",
+            "仓颉故里",
+            "文化慢行"
+          ],
+          [
+            "16:00",
+            "入住康养民宿",
+            "夜枕秦岭"
+          ]
+        ],
+        "food": "商州大烩菜 · 锅盔辣子"
+      },
+      {
+        "title": "康养 · 古镇慢生活",
+        "stops": [
+          [
+            "09:00",
+            "凤凰古镇",
+            "老街慢行 · 茶歇"
+          ],
+          [
+            "12:30",
+            "古镇农家菜",
+            "蒸碗小酌"
+          ],
+          [
+            "14:00",
+            "牛背梁",
+            "午后森林浴"
+          ],
+          [
+            "16:30",
+            "返回出发地"
+          ]
+        ],
+        "food": "农家蒸碗 · 腊味拼盘"
+      }
+    ],
+    "photo": [
+      {
+        "title": "摄影 · 塔云山追光",
+        "stops": [
+          [
+            "05:30",
+            "塔云山",
+            "金顶晨雾 · 日出"
+          ],
+          [
+            "10:00",
+            "木王森林公园",
+            "原始森林光影"
+          ],
+          [
+            "15:00",
+            "镇安县城",
+            "老街人文抓拍"
+          ],
+          [
+            "17:00",
+            "返回出发地"
+          ]
+        ],
+        "food": "镇安腊肉炒饭"
+      },
+      {
+        "title": "摄影 · 金丝峡一线天",
+        "stops": [
+          [
+            "08:00",
+            "金丝峡",
+            "峡谷光影 · 瀑布慢门"
+          ],
+          [
+            "13:00",
+            "闯王寨",
+            "古寨黄昏"
+          ],
+          [
+            "16:30",
+            "返回出发地"
+          ]
+        ],
+        "food": "山阳羊肉泡馍"
+      },
+      {
+        "title": "摄影 · 秦岭红叶季",
+        "stops": [
+          [
+            "06:30",
+            "天竺山",
+            "云海红叶（秋季）"
+          ],
+          [
+            "12:30",
+            "山阳午餐",
+            "羊肉汤馆"
+          ],
+          [
+            "14:00",
+            "漫川关古镇",
+            "老街人文"
+          ],
+          [
+            "16:30",
+            "返回出发地"
+          ]
+        ],
+        "food": "漫川八大件"
+      }
+    ]
+  },
+  "CORPUS": [
+    {
+      "k": [
+        "5a",
+        "5A",
+        "金丝峡",
+        "景区名单",
+        "几个5"
+      ],
+      "q": "商洛有哪些5A级景区？",
+      "a": "商洛目前有 1 个 5A 级景区——商南金丝峡景区。它以「万米奇峡」著称，先后获评国家森林公园、国家地质公园、国家水利风景区。此外，牛背梁、柞水溶洞、塔云山、天竺山、木王等均为知名山水景区。",
+      "src": "商洛市文旅局公开资料 · 景区名录"
+    },
+    {
+      "k": [
+        "好玩",
+        "推荐",
+        "玩",
+        "线路",
+        "哪里去",
+        "攻略",
+        "安排"
+      ],
+      "q": "商洛有什么好玩的？",
+      "a": "商洛玩法可以归为五类：山水（金丝峡、牛背梁、柞水溶洞、塔云山、天竺山）；人文（秦岭博物馆、棣花古镇、商於古道）；非遗（商洛花鼓、洛南草编、漫川大调）；美食（商州大烩菜、山阳羊肉泡馍、漫川八大件）；康养（22℃民宿、秦岭森呼吸）。七县区共 43 处主要景区，可在「山水商洛」页逐县查看。",
+      "cards": [
+        [
+          "山水",
+          "金丝峡 · 牛背梁 · 柞水溶洞 · 塔云山"
+        ],
+        [
+          "人文",
+          "秦岭博物馆 · 棣花古镇 · 商於古道"
+        ],
+        [
+          "非遗",
+          "商洛花鼓 · 道情 · 漫川大调 · 洛南草编"
+        ],
+        [
+          "美食",
+          "大烩菜 · 锅盔辣子 · 羊肉泡馍 · 八大件"
+        ]
+      ],
+      "src": "商洛市文旅局公开资料 · 资源总览"
+    },
+    {
+      "k": [
+        "非遗",
+        "非物质",
+        "花鼓",
+        "文化遗",
+        "草编",
+        "道情",
+        "大调",
+        "静板书",
+        "皮影"
+      ],
+      "q": "商洛有哪些非物质文化遗产？",
+      "a": "商洛非遗资源丰富，全市共 30 项代表性项目：国家级非遗商洛花鼓（第一批），以及商洛道情、洛南静板书、漫川大调、洛南草编、商州皮影戏、丹凤葡萄酒酿造技艺等省级与民间项目，涵盖戏曲、曲艺、技艺与美术。可在「非遗商洛」页按县区浏览全部 30 项。",
+      "cards": [
+        [
+          "国家级",
+          "商洛花鼓（第一批名录）"
+        ],
+        [
+          "省级",
+          "道情 · 漫川大调 · 静板书"
+        ],
+        [
+          "技艺",
+          "草编 · 皮影 · 葡萄酒酿造"
+        ],
+        [
+          "民间",
+          "麦秆画 · 剪纸 · 刺绣"
+        ]
+      ],
+      "src": "商洛市文旅局公开资料 · 非遗名录"
+    },
+    {
+      "k": [
+        "金丝峡",
+        "在哪",
+        "地址",
+        "怎么去",
+        "门票",
+        "多少钱"
+      ],
+      "q": "金丝峡在哪里，怎么去？门票多少钱？",
+      "a": "金丝峡位于商洛市商南县境内，是国家 5A 级景区。门票 100 元/人，学生半价 50 元；可提前通过「金丝峡」微信公众号、携程、美团实名购票（线上常有优惠价），景区咨询电话 0914-6566888。自驾沿沪陕高速至商南出口后按导航前往（西安出发约 2 小时旅游圈）。",
+      "cards": [
+        [
+          "票价",
+          "¥100 · 学生半价¥50"
+        ],
+        [
+          "购票",
+          "公众号「金丝峡」/ 携程 / 美团"
+        ],
+        [
+          "电话",
+          "0914-6566888"
+        ],
+        [
+          "交通",
+          "沪陕高速 · 西安2小时圈"
+        ]
+      ],
+      "src": "商南县政府公开资料 · 金丝峡景区指南"
+    },
+    {
+      "k": [
+        "美食",
+        "吃",
+        "大烩菜",
+        "泡馍",
+        "锅盔",
+        "八大件",
+        "小吃",
+        "糍粑",
+        "豆腐"
+      ],
+      "q": "商洛有什么特色美食？",
+      "a": "商洛美食兼具南北风味，全市 28 道特色美食按县区分布：商州区有商州大烩菜（压轴大菜）、商州水煎包、商芝肉；山阳县有漫川八大件（省级非遗宴席）、山阳羊肉泡馍；洛南县有洛源豆腐干、橡子凉粉；柞水县有洋芋糍粑、柞水十三花。还有商州核桃、丹凤葡萄酒、镇安大板栗、商南绿茶等地道特产。",
+      "cards": [
+        [
+          "商州",
+          "大烩菜 · 水煎包 · 商芝肉"
+        ],
+        [
+          "山阳",
+          "八大件 · 羊肉泡馍"
+        ],
+        [
+          "柞水",
+          "洋芋糍粑 · 十三花"
+        ],
+        [
+          "特产",
+          "核桃 · 葡萄酒 · 大板栗"
+        ]
+      ],
+      "src": "商洛市文旅局公开资料 · 美食名录"
+    },
+    {
+      "k": [
+        "康养",
+        "民宿",
+        "养生",
+        "22℃",
+        "慢生活",
+        "负氧",
+        "氧吧"
+      ],
+      "q": "商洛适合康养的线路有哪些？",
+      "a": "官方主打「22℃商洛 · 中国康养之都」：全国唯一中国气候康养之都、全域 6 县区获评中国天然氧吧、森林覆盖率近 70%、1192 种道地中药材。推荐两条康养线：① 秦岭山水康养线——牛背梁森呼吸＋柞水溶洞＋凤凰古镇，宿康养民宿；② 乡野民宿慢行线——洛南音乐小镇＋仓颉故里＋棣花古镇。牛背梁为国家级旅游度假区，朱家湾村获评联合国世界最佳旅游乡村。",
+      "src": "商洛市文旅局公开资料 · 康养旅游品牌"
+    },
+    {
+      "k": [
+        "季节",
+        "什么时候",
+        "最佳",
+        "月份",
+        "几月",
+        "春天",
+        "夏天",
+        "秋天",
+        "冬天"
+      ],
+      "q": "什么季节去商洛最好？",
+      "a": "四季皆宜：春看秦岭花海（洛南音乐小镇、中药研学）、夏进峡谷避暑（金丝峡、牛背梁，22℃核心旺季）、秋赏秦岭红叶（天竺山、木王）、冬品民俗年味（花鼓展演、古镇社火、温泉静养）。商洛是「全季康养」，不止夏天。",
+      "src": "商洛市文旅局公开资料 · 四季旅游推荐"
+    },
+    {
+      "k": [
+        "交通",
+        "高铁",
+        "西安",
+        "怎么去",
+        "自驾",
+        "高速",
+        "门票"
+      ],
+      "q": "从西安怎么去商洛？",
+      "a": "西十、西康高铁已开通，西安出发约 1 小时即可到达商洛，商洛正式迈入高铁时代、融入西安都市圈周末游版图；自驾可经沪陕高速（金丝峡已进入西安 2 小时旅游圈）。到达商洛后，各景区间可自驾或乘县际班车；「山水商洛」页每个景区都支持一键唤起高德导航。",
+      "src": "商洛市文旅局公开资料 · 交通出行说明"
+    },
+    {
+      "k": [
+        "贾平凹",
+        "棣花",
+        "文学",
+        "主角",
+        "秦腔",
+        "平凹"
+      ],
+      "q": "贾平凹故里在哪里？",
+      "a": "贾平凹故里位于丹凤县棣花古镇。清风街、荷塘、老宅是《秦腔》《主角》等作品的原型场景，是「跟着主角游商洛」主题线路的核心站点。",
+      "src": "商洛市文旅局公开资料 · 人文资源"
+    },
+    {
+      "k": [
+        "仓颉",
+        "造字",
+        "汉字",
+        "洛南"
+      ],
+      "q": "仓颉造字传说在哪里？",
+      "a": "仓颉造字传说地位于洛南县，素有「汉字故里」之称。阳虚山下保留着祭仓颉的谷雨传统，仓颉小镇（4A）建有仓颉碑林与仓圣湖，是汉字文化寻源的重要目的地。",
+      "src": "商洛市文旅局公开资料 · 人文资源"
+    },
+    {
+      "k": [
+        "博物馆",
+        "秦岭博物馆",
+        "地标",
+        "玉璋"
+      ],
+      "q": "秦岭博物馆有什么看点？",
+      "a": "秦岭博物馆位于商州区，以夏代玉牙璋为原型，外形如蜿蜒于秦岭之间的「山水玉璋」，是国内唯一秦岭主题博物馆（国家一级），免费开放。馆内可看秦岭四宝标本、地质演变与商洛历史展陈。",
+      "src": "商洛市文旅局公开资料 · 文博场馆"
+    },
+    {
+      "k": [
+        "牛背梁",
+        "柞水",
+        "溶洞",
+        "凤凰",
+        "终南山寨"
+      ],
+      "q": "柞水县有什么好玩的？",
+      "a": "柞水县是秦岭腹地明珠，主要景区：柞水溶洞（4A，亿年喀斯特溶洞群，门票约100元起）、牛背梁国家森林公园（4A，秦岭东段最高峰，门票110元、线上约102元）、凤凰古镇（4A，明清徽派老街）、终南山寨（石屋古寨）。可串成一日精华游。",
+      "src": "商洛市文旅局公开资料 · 县区资源"
+    },
+    {
+      "k": [
+        "塔云山",
+        "镇安",
+        "天竺山",
+        "山阳",
+        "木王"
+      ],
+      "q": "塔云山、天竺山怎么选？",
+      "a": "塔云山在镇安县，金顶观音殿建于孤峰之巅，以道教奇观与晨雾摄影闻名，门票约70元起；天竺山在山阳县，主峰 2074 米，奇峰林立、森林覆盖率高，秋季红叶最出片，门票约50元起。摄影追光选塔云山，登山赏景选天竺山；木王国家森林公园（镇安）则以十里杜鹃画廊闻名。",
+      "src": "商洛市文旅局公开资料 · 县区资源"
+    },
+    {
+      "k": [
+        "免费",
+        "不要钱",
+        "免票"
+      ],
+      "q": "商洛哪些景区免费开放？",
+      "a": "商洛有一批免费开放景点：商州区的戴云山、熊耳山、蟒岭绿道、仙娥湖、静泉山、金凤山、莲湖公园、丹江公园、秦岭博物馆（国家一级）均免费；山阳县的丰阳塔、法官秦岭原乡也免费。此外，2026 年宁商协作 35 周年，16 家收费景区对南京籍游客全年免首道门票（法定节假日除外，含 5A 金丝峡）。",
+      "src": "商洛市文旅局公开资料 · 景区名录"
+    },
+    {
+      "k": [
+        "活动",
+        "热点",
+        "新闻",
+        "艺术节",
+        "高铁",
+        "免票",
+        "国庆",
+        "村晚",
+        "最近"
+      ],
+      "q": "最近商洛有什么热门活动？",
+      "a": "近期商洛文旅大事件：① 第十一届陕西省艺术节在商洛落幕，362 场公共文化活动、210 场次促消费活动；② 西十、西康高铁开通，商洛进入高铁时代；③ 宁商协作 35 载，16 家收费景区对南京籍游客全年免首道门票；④ 国庆假期商洛接待游客同比增长 15.95%；⑤ 全国秋季「村晚」示范展示活动在天竺山举行；⑥ 「秦岭商州美如画」抖音打卡大赛 10 万奖金进行中。详见「文旅动态」页。",
+      "cards": [
+        [
+          "艺术节",
+          "362场公共文化活动"
+        ],
+        [
+          "高铁",
+          "西十·西康开通"
+        ],
+        [
+          "免票",
+          "南京籍16景区免首道"
+        ],
+        [
+          "村晚",
+          "天竺山示范展示"
+        ]
+      ],
+      "src": "商洛市文旅局官方发布 · 2026年秋"
+    },
+    {
+      "k": [
+        "门票",
+        "多少钱",
+        "票价",
+        "价格"
+      ],
+      "q": "主要景区门票价格是多少？",
+      "a": "商洛主要收费景区参考价：金丝峡（5A）100 元、学生半价 50；牛背梁 110 元（线上约 102 起）；柞水溶洞约 100 元起；塔云山约 70 元起；天竺山约 50 元起；木王森林公园约 20 元起。其余景区以现场公示为准，均可通过携程、美团、抖音团购实名购票。点击「山水商洛」任一景区，可直接跳转门票预订。",
+      "cards": [
+        [
+          "金丝峡",
+          "¥100 · 学生¥50"
+        ],
+        [
+          "牛背梁",
+          "¥110 · 线上¥102起"
+        ],
+        [
+          "柞水溶洞",
+          "¥100 起"
+        ],
+        [
+          "塔云山/天竺山",
+          "¥70/¥50 起"
+        ]
+      ],
+      "src": "OTA平台与景区官方公开信息 · 2026年"
+    },
+    {
+      "k": [
+        "介绍",
+        "商洛怎么样",
+        "商洛概况",
+        "商洛是什么",
+        "了解商洛",
+        "简介",
+        "概况",
+        "city",
+        "城市"
+      ],
+      "q": "介绍一下商洛？",
+      "a": "商洛古称商州，地处秦岭腹地，辖商州区、洛南、丹凤、商南、山阳、镇安、柞水 7 县区，素有「秦岭最美是商洛」之誉。这里是全国唯一「中国气候康养之都」（夏季均温 22℃）、全域 6 县区获评中国天然氧吧，森林覆盖率近 70%；拥有 1 个 5A 景区（金丝峡）和多个 4A 景区；是仓颉造字的「汉字故里」、贾平凹故里、商於古道核心段。西十、西康高铁已开通，从西安约 1 小时可达。本平台收录 43 处景区、16 段人文故事、30 项非遗、28 道美食，均可逐页查看，景区支持导航与门票预订。",
+      "cards": [
+        [
+          "7县区",
+          "商州 · 洛南 · 丹凤 · 商南 · 山阳 · 镇安 · 柞水"
+        ],
+        [
+          "名片",
+          "22℃ · 中国气候康养之都"
+        ],
+        [
+          "5A",
+          "金丝峡 · 天然氧吧"
+        ],
+        [
+          "交通",
+          "双高铁 · 西安1小时圈"
+        ]
+      ],
+      "src": "商洛市文旅局公开资料 · 城市概况"
+    },
+    {
+      "k": [
+        "天气",
+        "温度",
+        "气温",
+        "冷不冷",
+        "热不热",
+        "避暑",
+        "预报"
+      ],
+      "q": "商洛最近天气怎么样？",
+      "a": "天气属于实时信息，本地内置语料不包含气象数据，无法给出当天预报。想查最新天气、穿搭建议或实时攻略，可以换种问法试试（本页 AI 已接入豆包大模型，联网类问题也能答）；也可以直接看手机天气 App 的商洛市区预报（山区温差大，早晚建议带外套）。",
+      "src": "提示：实时天气需联网查询"
+    },
+    {
+      "k": [
+        "住宿",
+        "酒店",
+        "民宿",
+        "住哪",
+        "过夜",
+        "房间"
+      ],
+      "q": "在商洛住哪里比较好？",
+      "a": "商洛住宿以「景区民宿 + 县城酒店」为主：① 康养民宿线——牛背梁周边（国家级旅游度假区）、柞水朱家湾村（联合国世界最佳旅游乡村）、洛南音乐小镇民宿群，适合慢生活；② 古镇客栈——凤凰古镇、漫川关古镇、棣花古镇内有老宅改造客栈，夜游古镇很方便；③ 县城酒店——各区县中心城区酒店配套齐全，方便中转。7-8 月旺季建议提前 3-5 天预订。",
+      "src": "商洛市文旅局公开资料 · 康养旅居"
+    },
+    {
+      "k": [
+        "周末",
+        "两天",
+        "2天",
+        "短途",
+        "周边游",
+        "一日游"
+      ],
+      "q": "周末从西安来商洛怎么安排？",
+      "a": "高铁 1 小时直达，周末两日游推荐：Day1 西安高铁→商洛市区，上午秦岭博物馆（免费），下午金丝峡方向，宿商南县城或金丝峡周边民宿；Day2 上午金丝峡峡谷轻徒步，下午返程。亲子可选柞水线：柞水溶洞＋凤凰古镇＋终南山寨。也可以在「AI 行程规划」里选天数、人群一键生成带时间的行程单。",
+      "cards": [
+        [
+          "Day1",
+          "秦岭博物馆 → 商南 · 宿金丝峡周边"
+        ],
+        [
+          "Day2",
+          "金丝峡峡谷 → 返程"
+        ],
+        [
+          "亲子线",
+          "柞水溶洞 · 凤凰古镇 · 终南山寨"
+        ],
+        [
+          "交通",
+          "高铁1小时 · 站内换乘便捷"
+        ]
+      ],
+      "src": "商洛市文旅局公开资料 · 周末游推荐"
+    }
+  ],
+  "FALLBACK": {
+    "a": "这个问题我暂时没有现成答案。可以换种问法试试，比如「商洛有什么好玩的」「金丝峡门票多少钱」「最近有什么热门活动」——我在 43 景区、30 非遗、28 美食的语料里能答官方问题；天气、实时票务这类联网信息，本页 AI 已接入豆包大模型，也可以直接问。",
+    "src": "官方语料未命中 · 已给出替代路径"
+  },
+  "AI_SYS": "你是\"商洛文旅数字平台\"的官方文旅助手。请用简体中文、口语化且简洁地回答关于商洛旅游的任意问题（景点、门票、交通、美食、住宿、天气、攻略、近期活动等）。可以结合你知道的公开信息作答；不确定的信息请说明\"以官方为准\"。不要编造景区电话等具体事实。回答控制在200字以内，必要时分点。"
+}

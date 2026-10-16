@@ -1,0 +1,19 @@
+# Render 部署蓝图（Blueprint）
+# 在 Render 选择 "New → Blueprint"，连接本仓库即可自动识别以下配置。
+# 文档：https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: shangluo-tourism
+    runtime: node
+    rootDir: backend          # 后端代码在 backend 子目录
+    plan: free                # 免费实例（长时间无访问会休眠，首次访问约几十秒唤醒）
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
+    envVars:
+      - key: ARK_API_KEY
+        sync: false           # 密钥不写死，部署后在 Render 控制台手动填写
+      - key: ARK_BASE_URL
+        value: https://ark.cn-beijing.volces.com/api/v3
+      - key: ARK_MODEL
+        value: doubao-seed-evolving
